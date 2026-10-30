@@ -1,0 +1,142 @@
+.donation-section {
+  padding: 85px 20px;
+  background: #f6f8f3;
+  display: flex;
+  justify-content: center;
+}
+
+.donation-card {
+  width: 100%;
+  max-width: 520px;
+  padding: 42px;
+  background: white;
+  border: 1px solid #e4e8df;
+  border-radius: 22px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.donation-heart {
+  font-size: 42px;
+  color: #c96b69;
+  margin-bottom: 14px;
+}
+
+.donation-kicker {
+  color: #326b4a;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.donation-card h2 {
+  font-size: 30px;
+  margin: 16px 0;
+  color: #26372d;
+}
+
+.donation-card p {
+  color: #68766b;
+  line-height: 1.7;
+  margin-bottom: 25px;
+}
+
+.donation-card label {
+  display: block;
+  text-align: left;
+  font-weight: 600;
+  margin: 16px 0 8px;
+}
+
+.donation-card input {
+  width: 100%;
+  padding: 13px;
+  border: 1px solid #d9dfd8;
+  border-radius: 9px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.donation-amounts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 9px;
+}
+
+.donation-amounts button {
+  padding: 13px 5px;
+  background: white;
+  border: 1px solid #d9dfd8;
+  border-radius: 9px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.donation-amounts button.selected {
+  background: #326b4a;
+  color: white;
+  border-color: #326b4a;
+}
+
+.donation-submit {
+  width: 100%;
+  margin-top: 25px;
+  padding: 15px;
+  border: 0;
+  border-radius: 10px;
+  background: #326b4a;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.donation-submit:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.donation-card .donation-message {
+  margin: 18px 0;
+  color: #326b4a;
+  font-weight: 600;
+}
+
+.donation-card small {
+  display: block;
+  margin-top: 18px;
+  color: #77827a;
+}
+
+@media (max-width: 480px) {
+  .donation-card {
+    padding: 24px;
+  }
+
+  .donation-amounts {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.recipe-donation-container {
+  width: 100%;
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.recipe-donation-container .donation-section {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+}
+
+.recipe-donation-container .donation-card {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  box-shadow: none;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+}
